@@ -1,0 +1,8338 @@
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='v', typ=int}
+(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))))]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))), VarDeclStmt{name='v', typ=int}]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))), VarDeclStmt{name='v', typ=int}]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))))]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))))]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))), VarDeclStmt{name='a', typ=Ref(int)}]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))), VarDeclStmt{name='a', typ=Ref(int)}]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))), v=ValueExp{e=10}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))), v=ValueExp{e=10}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), allocHeap{var_name='a', exp=ValueExp{e=22}}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), allocHeap{var_name='a', exp=ValueExp{e=22}}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), writeHeap{var_name='a', exp=ValueExp{e=30}}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), writeHeap{var_name='a', exp=ValueExp{e=30}}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 0
+ExeStack:
+[]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), v=ValueExp{e=32}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), v=ValueExp{e=32}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30, 32]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30, 32]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30, 32, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='v', typ=int}
+(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))))]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))), VarDeclStmt{name='v', typ=int}]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))), VarDeclStmt{name='v', typ=int}]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))))]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))))]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))), VarDeclStmt{name='a', typ=Ref(int)}]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))), VarDeclStmt{name='a', typ=Ref(int)}]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))), v=ValueExp{e=10}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))), v=ValueExp{e=10}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), allocHeap{var_name='a', exp=ValueExp{e=22}}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), allocHeap{var_name='a', exp=ValueExp{e=22}}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), writeHeap{var_name='a', exp=ValueExp{e=30}}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), writeHeap{var_name='a', exp=ValueExp{e=30}}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 0
+ExeStack:
+[]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), v=ValueExp{e=32}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), v=ValueExp{e=32}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30, 32]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30, 32]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30, 32, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='v', typ=int}
+(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))))]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))), VarDeclStmt{name='v', typ=int}]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))), VarDeclStmt{name='v', typ=int}]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))))]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))))]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))), VarDeclStmt{name='a', typ=Ref(int)}]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))), VarDeclStmt{name='a', typ=Ref(int)}]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))), v=ValueExp{e=10}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))), v=ValueExp{e=10}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), allocHeap{var_name='a', exp=ValueExp{e=22}}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), allocHeap{var_name='a', exp=ValueExp{e=22}}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), writeHeap{var_name='a', exp=ValueExp{e=30}}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), writeHeap{var_name='a', exp=ValueExp{e=30}}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 0
+ExeStack:
+[]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), v=ValueExp{e=32}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), v=ValueExp{e=32}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30, 32]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30, 32]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30, 32, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='v', typ=int}
+(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))))]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))), VarDeclStmt{name='v', typ=int}]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))), VarDeclStmt{name='v', typ=int}]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))))]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))))]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))), VarDeclStmt{name='a', typ=Ref(int)}]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))), VarDeclStmt{name='a', typ=Ref(int)}]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))), v=ValueExp{e=10}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))), v=ValueExp{e=10}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), allocHeap{var_name='a', exp=ValueExp{e=22}}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), allocHeap{var_name='a', exp=ValueExp{e=22}}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), writeHeap{var_name='a', exp=ValueExp{e=30}}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), writeHeap{var_name='a', exp=ValueExp{e=30}}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 0
+ExeStack:
+[]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), v=ValueExp{e=32}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), v=ValueExp{e=32}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30, 32]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30, 32]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30, 32, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='v', typ=int}
+(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))))]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))), VarDeclStmt{name='v', typ=int}]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))), VarDeclStmt{name='v', typ=int}]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))))]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))))]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))), VarDeclStmt{name='a', typ=Ref(int)}]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))), VarDeclStmt{name='a', typ=Ref(int)}]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))), v=ValueExp{e=10}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))), v=ValueExp{e=10}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), allocHeap{var_name='a', exp=ValueExp{e=22}}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), allocHeap{var_name='a', exp=ValueExp{e=22}}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), writeHeap{var_name='a', exp=ValueExp{e=30}}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), writeHeap{var_name='a', exp=ValueExp{e=30}}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 0
+ExeStack:
+[]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), v=ValueExp{e=32}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), v=ValueExp{e=32}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30, 32]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30, 32]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30, 32, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='v', typ=int}
+(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))))]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))), VarDeclStmt{name='v', typ=int}]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))), VarDeclStmt{name='v', typ=int}]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))))]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))))]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))), VarDeclStmt{name='a', typ=Ref(int)}]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))), VarDeclStmt{name='a', typ=Ref(int)}]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))), v=ValueExp{e=10}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))), v=ValueExp{e=10}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), allocHeap{var_name='a', exp=ValueExp{e=22}}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), allocHeap{var_name='a', exp=ValueExp{e=22}}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), writeHeap{var_name='a', exp=ValueExp{e=30}}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), writeHeap{var_name='a', exp=ValueExp{e=30}}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 0
+ExeStack:
+[]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), v=ValueExp{e=32}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), v=ValueExp{e=32}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30, 32]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30, 32]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30, 32, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='v', typ=int}
+(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))))]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))), VarDeclStmt{name='v', typ=int}]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))), VarDeclStmt{name='v', typ=int}]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))))]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))))]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))), VarDeclStmt{name='a', typ=Ref(int)}]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))), VarDeclStmt{name='a', typ=Ref(int)}]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))), v=ValueExp{e=10}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))), v=ValueExp{e=10}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), allocHeap{var_name='a', exp=ValueExp{e=22}}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), allocHeap{var_name='a', exp=ValueExp{e=22}}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), writeHeap{var_name='a', exp=ValueExp{e=30}}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='v', typ=int}
+(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))))]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))), VarDeclStmt{name='v', typ=int}]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))), VarDeclStmt{name='v', typ=int}]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))))]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))))]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))), VarDeclStmt{name='a', typ=Ref(int)}]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))), VarDeclStmt{name='a', typ=Ref(int)}]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))), v=ValueExp{e=10}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))), v=ValueExp{e=10}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), allocHeap{var_name='a', exp=ValueExp{e=22}}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), allocHeap{var_name='a', exp=ValueExp{e=22}}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), writeHeap{var_name='a', exp=ValueExp{e=30}}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='v', typ=int}
+(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))))]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))), VarDeclStmt{name='v', typ=int}]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))), VarDeclStmt{name='v', typ=int}]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))))]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))))]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))), VarDeclStmt{name='a', typ=Ref(int)}]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))), VarDeclStmt{name='a', typ=Ref(int)}]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))), v=ValueExp{e=10}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))), v=ValueExp{e=10}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), allocHeap{var_name='a', exp=ValueExp{e=22}}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), allocHeap{var_name='a', exp=ValueExp{e=22}}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), writeHeap{var_name='a', exp=ValueExp{e=30}}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), writeHeap{var_name='a', exp=ValueExp{e=30}}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 0
+ExeStack:
+[]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), v=ValueExp{e=32}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), v=ValueExp{e=32}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30, 32]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30, 32]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30, 32, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='v', typ=int}
+(v=ValueExp{e=4}
+(WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}
+print(VarExp{id='v'}))))]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=4}
+(WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}
+print(VarExp{id='v'}))), VarDeclStmt{name='v', typ=int}]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=4}
+(WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}
+print(VarExp{id='v'}))), VarDeclStmt{name='v', typ=int}]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=4}
+(WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}
+print(VarExp{id='v'})))]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=4}
+(WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}
+print(VarExp{id='v'})))]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}
+print(VarExp{id='v'})), v=ValueExp{e=4}]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}
+print(VarExp{id='v'})), v=ValueExp{e=4}]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}
+print(VarExp{id='v'}))]
+SymTable:
+{v=4}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}
+print(VarExp{id='v'}))]
+SymTable:
+{v=4}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'}), WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}]
+SymTable:
+{v=4}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'}), WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}]
+SymTable:
+{v=4}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'}), WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}, (print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})]
+SymTable:
+{v=4}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'}), WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}, (print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})]
+SymTable:
+{v=4}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'}), WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}, v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}, print(VarExp{id='v'})]
+SymTable:
+{v=4}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'}), WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}, v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}, print(VarExp{id='v'})]
+SymTable:
+{v=4}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'}), WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}, v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}]
+SymTable:
+{v=4}
+Out:
+[4]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'}), WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}, v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}]
+SymTable:
+{v=4}
+Out:
+[4]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'}), WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}]
+SymTable:
+{v=3}
+Out:
+[4]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'}), WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}]
+SymTable:
+{v=3}
+Out:
+[4]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'}), WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}, (print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})]
+SymTable:
+{v=3}
+Out:
+[4]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'}), WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}, (print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})]
+SymTable:
+{v=3}
+Out:
+[4]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'}), WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}, v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}, print(VarExp{id='v'})]
+SymTable:
+{v=3}
+Out:
+[4]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'}), WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}, v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}, print(VarExp{id='v'})]
+SymTable:
+{v=3}
+Out:
+[4]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'}), WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}, v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}]
+SymTable:
+{v=3}
+Out:
+[4, 3]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'}), WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}, v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}]
+SymTable:
+{v=3}
+Out:
+[4, 3]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'}), WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}]
+SymTable:
+{v=2}
+Out:
+[4, 3]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'}), WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}]
+SymTable:
+{v=2}
+Out:
+[4, 3]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'}), WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}, (print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})]
+SymTable:
+{v=2}
+Out:
+[4, 3]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'}), WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}, (print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})]
+SymTable:
+{v=2}
+Out:
+[4, 3]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'}), WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}, v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}, print(VarExp{id='v'})]
+SymTable:
+{v=2}
+Out:
+[4, 3]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'}), WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}, v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}, print(VarExp{id='v'})]
+SymTable:
+{v=2}
+Out:
+[4, 3]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'}), WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}, v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}]
+SymTable:
+{v=2}
+Out:
+[4, 3, 2]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'}), WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}, v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}]
+SymTable:
+{v=2}
+Out:
+[4, 3, 2]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'}), WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}]
+SymTable:
+{v=1}
+Out:
+[4, 3, 2]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'}), WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}]
+SymTable:
+{v=1}
+Out:
+[4, 3, 2]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'}), WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}, (print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})]
+SymTable:
+{v=1}
+Out:
+[4, 3, 2]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'}), WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}, (print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})]
+SymTable:
+{v=1}
+Out:
+[4, 3, 2]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'}), WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}, v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}, print(VarExp{id='v'})]
+SymTable:
+{v=1}
+Out:
+[4, 3, 2]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'}), WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}, v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}, print(VarExp{id='v'})]
+SymTable:
+{v=1}
+Out:
+[4, 3, 2]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'}), WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}, v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}]
+SymTable:
+{v=1}
+Out:
+[4, 3, 2, 1]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'}), WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}, v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}]
+SymTable:
+{v=1}
+Out:
+[4, 3, 2, 1]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'}), WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}]
+SymTable:
+{v=0}
+Out:
+[4, 3, 2, 1]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'}), WhileStmt{exp=RelExp{exp1=VarExp{id='v'}, exp2=ValueExp{e=0}, op='>'}, stmt=(print(VarExp{id='v'})
+v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})}]
+SymTable:
+{v=0}
+Out:
+[4, 3, 2, 1]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'})]
+SymTable:
+{v=0}
+Out:
+[4, 3, 2, 1]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[print(VarExp{id='v'})]
+SymTable:
+{v=0}
+Out:
+[4, 3, 2, 1]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[]
+SymTable:
+{v=0}
+Out:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='v', typ=int}
+(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))))]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))), VarDeclStmt{name='v', typ=int}]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))), VarDeclStmt{name='v', typ=int}]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))))]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))))]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))), VarDeclStmt{name='a', typ=Ref(int)}]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))), VarDeclStmt{name='a', typ=Ref(int)}]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))), v=ValueExp{e=10}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))), v=ValueExp{e=10}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), allocHeap{var_name='a', exp=ValueExp{e=22}}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), allocHeap{var_name='a', exp=ValueExp{e=22}}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), writeHeap{var_name='a', exp=ValueExp{e=30}}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), writeHeap{var_name='a', exp=ValueExp{e=30}}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 0
+ExeStack:
+[]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), v=ValueExp{e=32}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), v=ValueExp{e=32}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30, 32]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30, 32]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30, 32, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='v', typ=int}
+(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))))]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))), VarDeclStmt{name='v', typ=int}]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))), VarDeclStmt{name='v', typ=int}]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))))]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))))]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))), VarDeclStmt{name='a', typ=Ref(int)}]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))), VarDeclStmt{name='a', typ=Ref(int)}]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))), v=ValueExp{e=10}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))), v=ValueExp{e=10}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), allocHeap{var_name='a', exp=ValueExp{e=22}}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), allocHeap{var_name='a', exp=ValueExp{e=22}}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), writeHeap{var_name='a', exp=ValueExp{e=30}}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), writeHeap{var_name='a', exp=ValueExp{e=30}}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 0
+ExeStack:
+[]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), v=ValueExp{e=32}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), v=ValueExp{e=32}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30, 32]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30, 32]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30, 32, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='v', typ=int}
+(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))))]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))), VarDeclStmt{name='v', typ=int}]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))), VarDeclStmt{name='v', typ=int}]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))))]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='a', typ=Ref(int)}
+(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))))]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))), VarDeclStmt{name='a', typ=Ref(int)}]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))), VarDeclStmt{name='a', typ=Ref(int)}]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(v=ValueExp{e=10}
+(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))), v=ValueExp{e=10}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))), v=ValueExp{e=10}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=0}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(allocHeap{var_name='a', exp=ValueExp{e=22}}
+(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), allocHeap{var_name='a', exp=ValueExp{e=22}}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), allocHeap{var_name='a', exp=ValueExp{e=22}}]
+SymTable:
+{a=RefValue{address=0, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), forkStmt{stmt=(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(writeHeap{var_name='a', exp=ValueExp{e=30}}
+(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), writeHeap{var_name='a', exp=ValueExp{e=30}}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))), writeHeap{var_name='a', exp=ValueExp{e=30}}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 0
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(v=ValueExp{e=32}
+(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 0
+ExeStack:
+[]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), v=ValueExp{e=32}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}})), v=ValueExp{e=32}]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=10}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[(print(VarExp{id='v'})
+print(readHeap{exp=VarExp{id='a'}}))]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}}), print(VarExp{id='v'})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30, 32]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[print(readHeap{exp=VarExp{id='a'}})]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30, 32]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 1
+ExeStack:
+[]
+SymTable:
+{a=RefValue{address=1, locationType=int}, v=32}
+Out:
+[10, 30, 32, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='varf', typ=string}
+(varf=ValueExp{e=test.in}
+(openRFile{exp=VarExp{id='varf'}}
+(VarDeclStmt{name='varc', typ=int}
+(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+closeRFile{exp=VarExp{id='varf'}}))))))))]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(varf=ValueExp{e=test.in}
+(openRFile{exp=VarExp{id='varf'}}
+(VarDeclStmt{name='varc', typ=int}
+(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+closeRFile{exp=VarExp{id='varf'}}))))))), VarDeclStmt{name='varf', typ=string}]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(varf=ValueExp{e=test.in}
+(openRFile{exp=VarExp{id='varf'}}
+(VarDeclStmt{name='varc', typ=int}
+(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+closeRFile{exp=VarExp{id='varf'}}))))))), VarDeclStmt{name='varf', typ=string}]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(varf=ValueExp{e=test.in}
+(openRFile{exp=VarExp{id='varf'}}
+(VarDeclStmt{name='varc', typ=int}
+(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+closeRFile{exp=VarExp{id='varf'}})))))))]
+SymTable:
+{varf=}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(varf=ValueExp{e=test.in}
+(openRFile{exp=VarExp{id='varf'}}
+(VarDeclStmt{name='varc', typ=int}
+(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+closeRFile{exp=VarExp{id='varf'}})))))))]
+SymTable:
+{varf=}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(openRFile{exp=VarExp{id='varf'}}
+(VarDeclStmt{name='varc', typ=int}
+(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+closeRFile{exp=VarExp{id='varf'}})))))), varf=ValueExp{e=test.in}]
+SymTable:
+{varf=}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(openRFile{exp=VarExp{id='varf'}}
+(VarDeclStmt{name='varc', typ=int}
+(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+closeRFile{exp=VarExp{id='varf'}})))))), varf=ValueExp{e=test.in}]
+SymTable:
+{varf=}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(openRFile{exp=VarExp{id='varf'}}
+(VarDeclStmt{name='varc', typ=int}
+(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+closeRFile{exp=VarExp{id='varf'}}))))))]
+SymTable:
+{varf=test.in}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(openRFile{exp=VarExp{id='varf'}}
+(VarDeclStmt{name='varc', typ=int}
+(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+closeRFile{exp=VarExp{id='varf'}}))))))]
+SymTable:
+{varf=test.in}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='varc', typ=int}
+(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+closeRFile{exp=VarExp{id='varf'}}))))), openRFile{exp=VarExp{id='varf'}}]
+SymTable:
+{varf=test.in}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='varc', typ=int}
+(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+closeRFile{exp=VarExp{id='varf'}}))))), openRFile{exp=VarExp{id='varf'}}]
+SymTable:
+{varf=test.in}
+Out:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='varc', typ=int}
+(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+closeRFile{exp=VarExp{id='varf'}})))))]
+SymTable:
+{varf=test.in}
+Out:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@23ecda5d}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(VarDeclStmt{name='varc', typ=int}
+(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+closeRFile{exp=VarExp{id='varf'}})))))]
+SymTable:
+{varf=test.in}
+Out:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@23ecda5d}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+closeRFile{exp=VarExp{id='varf'}})))), VarDeclStmt{name='varc', typ=int}]
+SymTable:
+{varf=test.in}
+Out:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@23ecda5d}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+closeRFile{exp=VarExp{id='varf'}})))), VarDeclStmt{name='varc', typ=int}]
+SymTable:
+{varf=test.in}
+Out:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@23ecda5d}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+closeRFile{exp=VarExp{id='varf'}}))))]
+SymTable:
+{varf=test.in, varc=0}
+Out:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@23ecda5d}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+closeRFile{exp=VarExp{id='varf'}}))))]
+SymTable:
+{varf=test.in, varc=0}
+Out:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@23ecda5d}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='varc'})
+(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+closeRFile{exp=VarExp{id='varf'}}))), readFile{exp=VarExp{id='varf'}, var_name='varc'}]
+SymTable:
+{varf=test.in, varc=0}
+Out:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@23ecda5d}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='varc'})
+(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+closeRFile{exp=VarExp{id='varf'}}))), readFile{exp=VarExp{id='varf'}, var_name='varc'}]
+SymTable:
+{varf=test.in, varc=0}
+Out:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@23ecda5d}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='varc'})
+(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+closeRFile{exp=VarExp{id='varf'}})))]
+SymTable:
+{varf=test.in, varc=15}
+Out:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@23ecda5d}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='varc'})
+(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+closeRFile{exp=VarExp{id='varf'}})))]
+SymTable:
+{varf=test.in, varc=15}
+Out:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@23ecda5d}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+closeRFile{exp=VarExp{id='varf'}})), print(VarExp{id='varc'})]
+SymTable:
+{varf=test.in, varc=15}
+Out:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@23ecda5d}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+closeRFile{exp=VarExp{id='varf'}})), print(VarExp{id='varc'})]
+SymTable:
+{varf=test.in, varc=15}
+Out:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@23ecda5d}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+closeRFile{exp=VarExp{id='varf'}}))]
+SymTable:
+{varf=test.in, varc=15}
+Out:
+[15]
+FileTable:
+{test.in=java.io.BufferedReader@23ecda5d}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(readFile{exp=VarExp{id='varf'}, var_name='varc'}
+(print(VarExp{id='varc'})
+closeRFile{exp=VarExp{id='varf'}}))]
+SymTable:
+{varf=test.in, varc=15}
+Out:
+[15]
+FileTable:
+{test.in=java.io.BufferedReader@23ecda5d}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='varc'})
+closeRFile{exp=VarExp{id='varf'}}), readFile{exp=VarExp{id='varf'}, var_name='varc'}]
+SymTable:
+{varf=test.in, varc=15}
+Out:
+[15]
+FileTable:
+{test.in=java.io.BufferedReader@23ecda5d}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='varc'})
+closeRFile{exp=VarExp{id='varf'}}), readFile{exp=VarExp{id='varf'}, var_name='varc'}]
+SymTable:
+{varf=test.in, varc=15}
+Out:
+[15]
+FileTable:
+{test.in=java.io.BufferedReader@23ecda5d}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='varc'})
+closeRFile{exp=VarExp{id='varf'}})]
+SymTable:
+{varf=test.in, varc=50}
+Out:
+[15]
+FileTable:
+{test.in=java.io.BufferedReader@23ecda5d}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[(print(VarExp{id='varc'})
+closeRFile{exp=VarExp{id='varf'}})]
+SymTable:
+{varf=test.in, varc=50}
+Out:
+[15]
+FileTable:
+{test.in=java.io.BufferedReader@23ecda5d}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[closeRFile{exp=VarExp{id='varf'}}, print(VarExp{id='varc'})]
+SymTable:
+{varf=test.in, varc=50}
+Out:
+[15]
+FileTable:
+{test.in=java.io.BufferedReader@23ecda5d}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[closeRFile{exp=VarExp{id='varf'}}, print(VarExp{id='varc'})]
+SymTable:
+{varf=test.in, varc=50}
+Out:
+[15]
+FileTable:
+{test.in=java.io.BufferedReader@23ecda5d}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[closeRFile{exp=VarExp{id='varf'}}]
+SymTable:
+{varf=test.in, varc=50}
+Out:
+[15, 50]
+FileTable:
+{test.in=java.io.BufferedReader@23ecda5d}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[closeRFile{exp=VarExp{id='varf'}}]
+SymTable:
+{varf=test.in, varc=50}
+Out:
+[15, 50]
+FileTable:
+{test.in=java.io.BufferedReader@23ecda5d}
+HeapTable:
+{}
+----------------------------
+Program id: 0
+ExeStack:
+[]
+SymTable:
+{varf=test.in, varc=50}
+Out:
+[15, 50]
+FileTable:
+{}
+HeapTable:
+{}
+----------------------------
